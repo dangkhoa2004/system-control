@@ -1,7 +1,8 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <HelloWorld />
+  <OfficeSpace />
 </template>
+
+<script setup>
+// Khai báo import component OfficeSpace từ cùng thư mục src
+import OfficeSpace from './components/OfficeSpace.vue';
+</script>
